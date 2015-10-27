@@ -1,0 +1,19 @@
+[Unit]
+Description=MySQL Router
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=mysql
+Group=mysql
+
+PIDFile=/var/run/mysqlrouter/mysqlrouter.pid
+
+ExecStart=/usr/sbin/mysqlrouter 
+
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+

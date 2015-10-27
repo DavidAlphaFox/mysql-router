@@ -1,0 +1,6 @@
+[DEFAULT]
+logging_folder = @CMAKE_BINARY_DIR@/stage/log
+plugin_folder = @CMAKE_BINARY_DIR@/stage/lib/mysqlrouter
+runtime_folder = @CMAKE_BINARY_DIR@/stage/run
+config_folder = @CMAKE_BINARY_DIR@/stage/etc
+

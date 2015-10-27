@@ -1,0 +1,24 @@
+*~
+*.o
+*.so
+*.a
+
+# Generated files
+harness/include/plugin.h
+
+# Doxygen generated documentation
+doc/**
+
+# Build and Packaging
+build/
+BUILD/
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+Makefile
+CPack*.cmake
+
+# Editor files & folders
+.idea/
+.DS_Store
+
